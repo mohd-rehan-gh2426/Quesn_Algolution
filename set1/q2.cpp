@@ -14,4 +14,4 @@ int main()
     cout<<"The maximum element is "<<max<<"  in the array";
 
     return 0;
-}
+} 

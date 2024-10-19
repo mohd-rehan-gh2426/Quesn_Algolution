@@ -14,5 +14,5 @@ int main()
     cout<<"The negative element "<<count<<" times present in the array";
 
     return 0;
-}
+} 
 
