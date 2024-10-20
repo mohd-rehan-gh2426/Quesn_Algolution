@@ -19,4 +19,4 @@ int main() {
     int N = 6, X = 9;
     cout << (hasPairNaive(A, N, X) ? "Yes" : "No") << endl;  // Output: Yes
     return 0;
-}
+} 

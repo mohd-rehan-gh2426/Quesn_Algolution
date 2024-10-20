@@ -23,4 +23,4 @@ int main() {
     cout << equilibriumIndex(arr2) << endl;  // Output: -1
 
     return 0;
-}
+} 

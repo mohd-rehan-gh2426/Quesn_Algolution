@@ -30,4 +30,4 @@ int main() {
     cout << maxSumKConsecutive(arr3, arr3.size(), k3) << endl;  // Output: -1 (Invalid)
     
     return 0;
-}
+} 

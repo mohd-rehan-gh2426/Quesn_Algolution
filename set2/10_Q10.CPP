@@ -15,12 +15,12 @@ int maxLengthSubarrayWithSum(vector<int>& nums, int target) {
         // Check if sum is equal to target
         if (sum == target) {
             maxLength = i + 1;
-        }
+        } 
 
         // Check if there is a subarray with sum equal to (sum - target)
         if (prefixSumMap.find(sum - target) != prefixSumMap.end()) {
             maxLength = max(maxLength, i - prefixSumMap[sum - target]);
-        }
+        } 
 
         // Store the prefix sum with index only if it's not already stored
         if (prefixSumMap.find(sum) == prefixSumMap.end()) {

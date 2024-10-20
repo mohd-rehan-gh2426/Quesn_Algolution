@@ -25,4 +25,4 @@ int main() {
     s = "race a car";
     cout << boolalpha << isPalindrome(s) << endl;  // Output: false
     return 0;
-}
+} 

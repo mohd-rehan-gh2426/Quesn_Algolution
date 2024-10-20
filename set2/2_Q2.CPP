@@ -38,4 +38,4 @@ int main() {
     vector<int> arr = {7, 2, 6, 3};
     cout << mergeSortAndCount(arr, 0, arr.size() - 1) << endl;  // Output: 4
     return 0;
-}
+} 
